@@ -1,0 +1,11 @@
+framework module AppModel {
+  umbrella header "AppModel.h"
+
+  export *
+  module * { export * }
+}
+
+module AppModel.Swift {
+    header "AppModel-Swift.h"
+    requires objc
+}
