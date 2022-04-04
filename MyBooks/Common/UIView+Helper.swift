@@ -1,9 +1,8 @@
 //
 //  UIView+Helper.swift
-//  BeerCrafts
+//  MyBooks
 //
-//  Created by Abhishek on 29/06/18.
-//  Copyright © 2018 Abhishek. All rights reserved.
+//  Created by MacBook Pro on 1/4/2022.
 //
 
 import UIKit
