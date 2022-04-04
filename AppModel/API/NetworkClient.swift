@@ -33,7 +33,7 @@ class NetworkClient{
 // REQUEST OFFLINE
 extension NetworkClient {
     
-    public static func getBeerListOffline(completion: @escaping (_ beerList: [Book], _ error: Error?) -> Void) {
+    public static func getBookListOffline(completion: @escaping (_ beerList: [Book], _ error: Error?) -> Void) {
         
         guard let filePath = Bundle.main.url(forResource: "Books",
                                              withExtension: "json") else {

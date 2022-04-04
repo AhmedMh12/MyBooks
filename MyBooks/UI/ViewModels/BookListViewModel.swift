@@ -37,7 +37,7 @@ class BookListViewModel {
     }
     
     func fetchItems(completion: @escaping (_ error: Error?) -> Void) {
-        NetworkClient.getBeerListOffline { [weak self] (list, error) in
+        NetworkClient.getBookListOffline { [weak self] (list, error) in
             if let error = error {
                 completion(error)
             } else {
